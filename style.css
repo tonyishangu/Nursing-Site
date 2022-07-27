@@ -1,0 +1,52 @@
+body{
+    padding: 10px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px black;
+    height: 50px;
+    width: 90%;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    /* background-color: blue; */
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.link:hover{
+    color: purple;
+}
+span {
+    color: purple;
+}
+.hero{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 20px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.topic{
+    color: #000000;
+    text-decoration: underline;
+}
+.content {
+    text-align: left;
+    /* padding-bottom: 10px; */
+}
+p {
+    line-height: 2;
+}
