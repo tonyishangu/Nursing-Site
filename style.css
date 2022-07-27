@@ -47,3 +47,6 @@ span {
     text-align: left;
     /* padding-bottom: 10px; */
 }
+p {
+    line-height: 2;
+}
