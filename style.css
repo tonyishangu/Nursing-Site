@@ -42,7 +42,6 @@ span {
     background-color: #fff;
 }
 .topic{
-    color: #000000;
     text-decoration: underline;
 }
 .content {
@@ -50,6 +49,10 @@ span {
 }
 p {
     line-height: 2;
+}
+h1{
+    padding: 10px;
+    color: cornflowerblue;
 }
 h2{
     text-align: center;
@@ -90,7 +93,8 @@ input{
 .message{
     padding: 10px;
 }
-/* label{
-    padding-bottom: 4px;
-    margin-bottom: 50px;
-} */
+.about{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
