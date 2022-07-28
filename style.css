@@ -32,6 +32,7 @@ span {
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     margin: 20px;
+    background-color: #eee;
 }
 .sticky{
     position: fixed;
@@ -48,4 +49,8 @@ span {
 }
 p {
     line-height: 2;
+}
+hr{
+    width: 500px;
+    opacity: 30%;
 }
