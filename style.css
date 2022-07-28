@@ -27,9 +27,10 @@ span {
     color: purple;
 }
 .hero{
-    height: 1000px;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     padding: 10px;
     margin: 20px;
     background-color: #eee;
@@ -50,7 +51,46 @@ span {
 p {
     line-height: 2;
 }
+h2{
+    text-align: center;
+    font-size: 25px;
+}
 hr{
     width: 500px;
     opacity: 30%;
 }
+input{
+    width: 100%;
+}
+.form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 10px #000000;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* margin-bottom: px; */
+}
+.num{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+.subject{
+    display: grid;
+    padding: 10px;
+}
+.file{
+    padding: 10px;
+}
+.message{
+    padding: 10px;
+}
+/* label{
+    padding-bottom: 4px;
+    margin-bottom: 50px;
+} */
